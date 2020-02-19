@@ -1,0 +1,86 @@
+﻿body {
+    font-family:Rockwell;
+    
+}
+
+.container-fluid {
+    width: 50%;
+    margin-right: 0px;
+    margin-left: 2px;
+}
+
+.wrapper {
+    min-height: 250px;
+    position: relative;
+    /*border: 2px solid;*/
+    border-left: 40px solid;
+    border-left-color: white;  
+    padding: 15px;
+    color: none;
+    font-size: small;
+    display: inline-block;
+    overflow:no-content; 
+}
+
+.row {
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+    margin-right: 3px;  
+}
+
+.imageParams {
+    height: 75px;
+    width: 10%;
+}
+
+button {
+    width: 50%;
+    
+}
+
+.btn {
+    background-color: #707070;
+    font-size: 18px;
+    border-radius: 0px 13px 13px 0px;
+    box-shadow: 0px 2px 3px #707070; 
+}
+
+
+h3 {
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 48%;
+    left: 0;
+    /*If width is removed set to -40 or -320 if width is applied*/
+    margin-left: -300px;
+    /*Rotate the text vertically*/
+    transform: rotate(90deg);
+    transform-origin: 50% -5%;
+    text-align: center;
+    border-bottom: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    line-height: 1px;
+}
+
+#header {
+    /*Dynamic until this point*/
+    /*This stays the width of the wrapper and is my issue*/
+    /*I need the width of H3 to = the height of the wrapper*/
+    width: 100%;
+}
+
+
+
+h3 span {
+    background-color: white;
+    color: #707070;
+    text-align: center;
+    margin-top: 4px;
+}
+
+
+
