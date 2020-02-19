@@ -1,6 +1,7 @@
 ﻿
 body {
     font-family:Rockwell;
+    background-image: url("https://external.bwfed.com/programs/ccj3/devs/Test%20Images/grunge-blue-background.jpg");
     
 }
 
@@ -62,7 +63,7 @@ h3 {
     transform: rotate(90deg);
     transform-origin: 50% -5%;
     text-align: center;
-    border-bottom: 2px;
+    border-bottom: .5px;
     border-color: black;
     border-bottom-style: solid;
     line-height: 1px;
@@ -82,4 +83,16 @@ h3 span {
     color: #707070;
     text-align: center;
     margin-top: 4px;
+}
+
+.row {
+    margin-left: 10px;
+}
+
+.mission_statement {
+    width: 50%;
+    font-size: 26px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
