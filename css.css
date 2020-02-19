@@ -1,12 +1,13 @@
-﻿body {
+﻿
+body {
     font-family:Rockwell;
     
 }
 
 .container-fluid {
-    width: 50%;
+    width: 49%;
     margin-right: 0px;
-    margin-left: 2px;
+    margin-left: 25px;
 }
 
 .wrapper {
@@ -34,7 +35,7 @@
 }
 
 button {
-    width: 50%;
+    width: 100%;
     
 }
 
@@ -81,6 +82,3 @@ h3 span {
     text-align: center;
     margin-top: 4px;
 }
-
-
-

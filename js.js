@@ -1,4 +1,5 @@
-﻿$(document).ready(function () {
+﻿
+$(document).ready(function () {
 
     //creating a variable for wrappers height
     var wideToHeight = $(".wrapper").height() 
@@ -8,3 +9,4 @@
 
 
 });
+
