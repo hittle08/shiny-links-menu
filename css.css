@@ -96,3 +96,7 @@ h3 span {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.padDaTop {
+    margin-top:15%;
+}
