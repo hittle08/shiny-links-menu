@@ -7,6 +7,5 @@ $(document).ready(function () {
     //setting h3's width to wrappers height
     $("H3").css({ 'width': wideToHeight});
 
-
 });
 
